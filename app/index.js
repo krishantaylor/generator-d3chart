@@ -37,14 +37,16 @@ D3chartGenerator.prototype.askFor = function askFor() {
 };
 
 D3chartGenerator.prototype.app = function app() {
-  this.mkdir('app');
-  this.mkdir('app/templates');
-
   this.copy('_package.json', 'package.json');
-  this.copy('_bower.json', 'bower.json');
+  this.copy('README.md', 'README.md');
+  this.copy('Gruntfile.js', 'Gruntfile.js');
+  this.copy('d3.chart.template.js', 'd3.chart.template.js');
+  this.copy('d3.chart.template.min.js', 'd3.chart.template.min.js');
+  this.directory('dist', 'dist');
+  this.directory('example', 'example');
+  this.directory('src', 'src');
 };
 
 D3chartGenerator.prototype.projectfiles = function projectfiles() {
-  this.copy('editorconfig', '.editorconfig');
-  this.copy('jshintrc', '.jshintrc');
+  this.copy('gitignore', '.gitignore');
 };
