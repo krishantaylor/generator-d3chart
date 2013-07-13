@@ -1,0 +1,37 @@
+{
+  "name": "generator-d3chart",
+  "version": "0.0.0",
+  "description": "A generator for Yeoman",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "homepage": "https://github.com/krishantaylor/generator-d3chart",
+  "bugs": "https://github.com/krishantaylor/generator-d3chart/issues",
+  "author": {
+    "name": "Krishan Taylor",
+    "email": "",
+    "url": "https://github.com/krishantaylor"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/krishantaylor/generator-d3chart.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "yeoman-generator": "~0.12.0"
+  },
+  "devDependencies": {
+    "mocha": "~1.10.0"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
