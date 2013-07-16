@@ -1,9 +1,11 @@
 {
   "name": "generator-d3chart",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A generator for Yeoman",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "d3",
+    "d3chart"
   ],
   "homepage": "https://github.com/krishantaylor/generator-d3chart",
   "bugs": "https://github.com/krishantaylor/generator-d3chart/issues",
