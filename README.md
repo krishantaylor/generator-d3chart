@@ -3,6 +3,8 @@
 
 A generator for Yeoman.
 
+Based on [d3.chart.template](https://github.com/misoproject/d3.chart.template)
+
 ## Getting started
 - Make sure you have [yo](https://github.com/yeoman/yo) installed:
     `npm install -g yo`
