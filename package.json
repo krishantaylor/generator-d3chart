@@ -1,6 +1,6 @@
 {
   "name": "generator-d3chart",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Yeoman generator for d3.chart",
   "keywords": [
     "yeoman-generator",
